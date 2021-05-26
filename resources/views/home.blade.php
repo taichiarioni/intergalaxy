@@ -13,8 +13,21 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    {{ __('You are logged in!') }}
+                    <div>
+                        <input type="submit" value=" + Cadastrar Prestador" id="button">
+                    </div>
+                    <br>
+                        <table border="3" width="100%">
+                            <th>Período</th>
+                            <th>Horas Trabalhadas</th>
+                            <th>Salário</th>
+                        <tr>
+                            <th>Manhã</th>
+                        <tr>
+                            <th>Tarde</th>
+                        <tr>
+                            <th>Noite</th>
+                        </table>
                 </div>
             </div>
         </div>
